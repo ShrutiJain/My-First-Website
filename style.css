@@ -1,0 +1,43 @@
+body{
+    text-align: center;
+    background-color:#FDD2BF;
+}
+#profile{
+    background: linear-gradient(to bottom right,#80ED99,#57CC99,#38A3A5,#22577A);
+    height: 500px;
+    text-align: center;
+}
+#profile_pic{
+    width: 300px;
+    height: 250px;
+}
+.menu{
+    list-style: none;
+    right: 30px;
+    position: fixed;
+    z-index: 10;
+    cursor: pointer;
+}
+.link{
+    float: left;
+    padding: 5px 9px;
+    font-family: cursive;
+    color: firebrick;
+    text-decoration: none;
+}
+.link:hover{
+    background-color: peachpuff;
+}
+h1{
+    font-family: cursive;
+}
+#contact{
+    background:black;
+}
+#contact1 h3{
+    display: inline;
+}
+#contact1 a{
+    color: white;
+    text-decoration: none;
+}
